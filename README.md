@@ -15,7 +15,28 @@ apt update -y && yes | apt upgrade && pkg install -y bash wget mpv && wget -O - 
 // PERSONALIZAR INSTALACIÓN AUTOMÁTICA (En caso de una Bifurcación)
 // Parámetros editables
 
-_________________________________________________________
+
+### 🪄 (OPCIÓN 2) INSTALACIÓN MANUAL POR TERMUX - GITHUB 
+> **Note** Comandos para instalar de forma manual
+```bash
+termux-setup-storage
+```
+```bash
+apt update && apt upgrade && pkg install -y git nodejs ffmpeg imagemagick yarn
+```
+```bash
+git clone https://github.com/SenpaiVT/Waifu-MD && cd Waifu-MD
+```
+```bash
+yarn install && npm install
+```
+```bash
+npm start
+```
+> **Warning** Si aparece (Y/I/N/O/D/Z) [default=N] ? use la letra "y" + "ENTER" para continuar con la instalación
+
+
+
 
 ```bash
 termux-setup-storage
